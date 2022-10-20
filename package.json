@@ -1,0 +1,45 @@
+{
+  "name": "@magoocas/vue-plotly.js",
+  "version": "0.0.2",
+  "description": "A Vue3 compatible port of https://www.npmjs.com/package/react-plotly.js",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/vue-plotly.umd.cjs",
+  "module": "dist/vue-plotly.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-plotly.js",
+      "require": "./dist/vue-plotly.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "vue": "^3.2.41"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-interactions": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/builder-vite": "^0.2.4",
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/vue3": "^6.5.12",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "babel-loader": "^8.2.5",
+    "vite": "^3.1.0",
+    "vue-loader": "^16.8.3"
+  },
+  "peerDependencies": {
+    "plotly.js": "^2.16.0"
+  }
+}

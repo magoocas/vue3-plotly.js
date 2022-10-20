@@ -1,0 +1,4 @@
+/.storybook
+/node_modules
+.eslintrc.js
+/storybook-static
