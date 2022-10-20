@@ -20,8 +20,5 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: main
-          FOLDER: docs-build
-          CLEAN: true
-          TARGET_FOLDER: docs
+          folder: docs-build
+          target_folder: docs
