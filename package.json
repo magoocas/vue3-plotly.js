@@ -20,7 +20,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -o docs-build -s ./src/stories/assets"
+    "build-storybook": "build-storybook -o docs-build -s ./src/stories/assets",
+    "publish-storybook": "npx -p @storybook/storybook-deployer storybook-to-ghpages"
   },
   "dependencies": {
     "vue": "^3.2.41"
@@ -32,6 +33,7 @@
     "@storybook/addon-interactions": "^6.5.12",
     "@storybook/addon-links": "^6.5.12",
     "@storybook/builder-vite": "^0.2.4",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.0.13",
     "@storybook/vue3": "^6.5.12",
     "@vitejs/plugin-vue": "^3.1.0",
