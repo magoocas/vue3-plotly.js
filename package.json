@@ -1,6 +1,6 @@
 {
   "name": "@magoocas/vue-plotly.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Vue3 compatible port of https://www.npmjs.com/package/react-plotly.js",
   "license": "MIT",
   "type": "module",
@@ -20,7 +20,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -o docs-build -s ./src/stories/assets"
   },
   "dependencies": {
     "vue": "^3.2.41"

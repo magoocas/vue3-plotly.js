@@ -30,7 +30,7 @@ export const Primary = Template.bind({});
 Primary.args = {
   data: [
     {
-      x: [1, 2, 3],
+      x: [1, 2, 4],
       y: [2, 6, 3],
       type: 'scatter',
       mode: 'lines+markers',

@@ -12,6 +12,7 @@ dist
 dist-ssr
 storybook-static
 *.local
+docs-build
 
 # Editor directories and files
 .vscode/*
